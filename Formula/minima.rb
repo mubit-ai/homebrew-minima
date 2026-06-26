@@ -3,8 +3,8 @@ class Minima < Formula
 
   desc "Cost-aware LLM model-routing coding agent"
   homepage "https://docs.minima.sh"
-  url "https://github.com/mubit-ai/minima/releases/download/v0.4.9/minima_cli-0.4.9.tar.gz"
-  sha256 "def9bbf5e2c27ae492e8b8b4e782c96af160bed825710e364500e69a2592e293"
+  url "https://github.com/mubit-ai/minima/releases/download/v0.4.10/minima_cli-0.4.10.tar.gz"
+  sha256 "1b50bf16d5643b64306a1e69efe70750732959b3b53f42708ad2dafa7d52df90"
   license :cannot_represent # FSL-1.1-Apache-2.0 (not an SPDX id)
 
   depends_on "python@3.13"
