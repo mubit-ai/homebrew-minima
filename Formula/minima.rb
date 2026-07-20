@@ -1,30 +1,30 @@
 class Minima < Formula
   desc "Cost-aware LLM model-routing coding agent"
   homepage "https://docs.minima.sh"
-  version "0.12.0"
+  version "0.12.1"
   license :cannot_represent # FSL-1.1-Apache-2.0 (not an SPDX id)
 
   # Prebuilt, self-contained Bun binary — no Python, no runtime deps. Install is
   # a download + extract (seconds), not a ~5-minute virtualenv build.
   on_macos do
     on_arm do
-      url "https://github.com/mubit-ai/minima/releases/download/v0.12.0/minima-0.12.0-darwin-arm64.tar.gz"
-      sha256 "0f2071972c250b92dbf9013f6d3b846e59acb1ca9f17afce7c360ac4cbe6a5c3"
+      url "https://github.com/mubit-ai/minima/releases/download/v0.12.1/minima-0.12.1-darwin-arm64.tar.gz"
+      sha256 "0219eb7c60280abbc8af3a9c615362d27fb2698c8b465b6c376775e2f97de7ba"
     end
     on_intel do
-      url "https://github.com/mubit-ai/minima/releases/download/v0.12.0/minima-0.12.0-darwin-x64.tar.gz"
-      sha256 "d8b89db4cdba4cca14cca0df51ba330133ca55cb2e77a0e891e5d5e435789d06"
+      url "https://github.com/mubit-ai/minima/releases/download/v0.12.1/minima-0.12.1-darwin-x64.tar.gz"
+      sha256 "982c844766196ee4dc747afbc8bd6d916965b2478b79bde0eab313265efc90ca"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mubit-ai/minima/releases/download/v0.12.0/minima-0.12.0-linux-arm64.tar.gz"
-      sha256 "ea16353df9e755a1fd315bade09d0d47f64bdba22f3d7004c3548eb22dc45e45"
+      url "https://github.com/mubit-ai/minima/releases/download/v0.12.1/minima-0.12.1-linux-arm64.tar.gz"
+      sha256 "953a823331c99fc8ae45bf0d85fd7ab8fdcf028f1b209fd4905998ef3eebb7cc"
     end
     on_intel do
-      url "https://github.com/mubit-ai/minima/releases/download/v0.12.0/minima-0.12.0-linux-x64.tar.gz"
-      sha256 "f539edb4601b34a39f84f85d35e8bfb99d4b0048741a8cded4fc15dfa6df9f2b"
+      url "https://github.com/mubit-ai/minima/releases/download/v0.12.1/minima-0.12.1-linux-x64.tar.gz"
+      sha256 "5de51edc0b4c43e3ac1e420003e99a66b11871a35ab2a36f7311d3e4ac1b9630"
     end
   end
 
